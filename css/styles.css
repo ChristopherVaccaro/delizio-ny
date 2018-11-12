@@ -127,7 +127,12 @@ footer {
   footer .cc-logos {
     margin: 20px 0; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-wrapper .bg-light {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%; } }
+@media only screen and (max-width: 767px) {
   header {
     display: block;
     text-align: center; }
